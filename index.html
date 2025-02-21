@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Include QRCode.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <form id="qrForm">
+            <input type="text" id="urlInput" name="url" placeholder="Enter URL" required>
+            <button type="submit">Generate</button>
+        </form>
+        <div class="qr-code" id="qrCodeContainer"></div>
+        <div class="download-buttons" id="downloadButtons" style="display:none;">
+            <button id="downloadPng">Download PNG</button>
+        </div>
+    </div>
+    <footer>
+        <p><strong>Made with ❤️ by Harshit Soni</strong></p>
+        <p>GitHub: <a href="https://github.com/Harshit-Soni78" target="_blank">Harshit-Soni78</a></p>
+        <hr>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
