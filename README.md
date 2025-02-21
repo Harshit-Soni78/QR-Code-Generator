@@ -1,48 +1,56 @@
-# QR-Code-Generator
+# QR Code Generator
 
-## Overview
-
-This project is a web application that allows users to generate QR codes for any given URL. The application is built using Python, Flask, HTML, CSS, and JavaScript.
+This is a simple **QR Code Generator** built using HTML, CSS, and JavaScript. It allows users to generate QR codes from URLs and download them as PNG images with customizable sizes.
 
 ## Features
 
-- Input a URL to generate a QR code
-- Dynamically display the generated QR code on the same page
-- Download the QR code in PNG or SVG format
-- Responsive design for better user experience on mobile devices
+- Generate QR codes for any URL
+- Download QR codes as PNG images
+- Customize the QR code pixel size before downloading
+- Centered QR code with a white border for better readability
+- No backend required – runs entirely in the browser
+
+## Live Demo
+
+[Live Demo :](https://harshit-soni78.github.io/QR-Code-Generator/)
+<https://harshit-soni78.github.io/QR-Code-Generator/>
 
 ## Installation
 
 1. Clone the repository:
-
    ```sh
-   git clone https://github.com/Harshit-Soni78/qr-code-generator.git
-   cd qr-code-generator
+   git clone https://github.com/Harshit-Soni78/QR-Code-Generator.git
    ```
-
-2. Set up a virtual environment (optional but recommended):
-
+2. Navigate to the project directory:
    ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   cd QR-Code-Generator
    ```
-
-3. Install the required libraries:
-   ```sh
-   pip install -r requirements.txt
-   ```
+3. Open `index.html` in a web browser.
 
 ## Usage
 
-1. Run the Flask application:
+1. Enter a URL in the input field.
+2. Click the **Generate** button to create a QR code.
+3. Click the **Download PNG** button to save the QR code as an image.
+4. Enter the desired pixel size when prompted before downloading.
 
-   ```sh
-   python app.py
-   ```
+## Dependencies
 
-2. Open your web browser and navigate to `http://127.0.0.1:5000/`.
+- [QRCode.js](https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js)
 
-3. Enter the URL and click "Generate" to create the QR code. Use the download buttons to save the QR code in PNG or SVG format.
+## Folder Structure
+
+```text
+   qr-code-generator/
+   │── index.html
+   │── script.js
+   │── styles.css (if applicable)
+   │── README.md
+```
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Author
 
