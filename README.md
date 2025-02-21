@@ -41,10 +41,11 @@ This is a simple **QR Code Generator** built using HTML, CSS, and JavaScript. It
 ## Folder Structure
 
 ```text
-   qr-code-generator/
+   QR-Code-Generator/
    │── index.html
    │── script.js
-   │── styles.css (if applicable)
+   │── styles.css
+   │── favicon.png
    │── README.md
 ```
 
