@@ -81,6 +81,6 @@ hr {
 
 @media (max-width: 600px) {
     .qr-code img {
-        max-width: 80%;
+        max-width: 50%;
     }
 }
